@@ -3,4 +3,7 @@ plugin.rzthreesixty {
 # cat=rzthreesixty/enable/010; type=boolean; label=Enable jQuery globally;
 enableGlobal = 0
 
+# cat=rzthreesixty/enable/020; type=boolean; label=jQuery noConflict mode;
+noConflict = 0
+
 }

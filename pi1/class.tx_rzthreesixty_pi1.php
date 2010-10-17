@@ -114,8 +114,8 @@ class tx_rzthreesixty_pi1 extends tslib_pibase {
 	   </div>
     </div>
     <script language="javascript">
-      $(document).ready(function() {
-        $(function() {
+      jQuery(document).ready(function() {
+        jQuery(function() {
     ';
     
     // If image is processed
@@ -132,7 +132,7 @@ class tx_rzthreesixty_pi1 extends tslib_pibase {
     }   
     
     $content .= '
-          	$(".rzthreesixty_'.$ce_id.'").threesixty({images:arr, method:\''.$method.'\', \'cycle\':'.$cycle.', direction:"'.$direction.'", sensibility: '.$sensibility.'});;        
+          	jQuery(".rzthreesixty_'.$ce_id.'").threesixty({images:arr, method:\''.$method.'\', \'cycle\':'.$cycle.', direction:"'.$direction.'", sensibility: '.$sensibility.'});;        
           }); 
         });     
       </script>    
