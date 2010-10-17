@@ -1,0 +1,6 @@
+plugin.rzthreesixty {
+
+# cat=rzthreesixty/enable/010; type=boolean; label=Enable jQuery globally;
+enableGlobal = 0
+
+}

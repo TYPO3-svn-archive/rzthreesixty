@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for extension 'rzthreesixty' forms</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="rzthreesixty.pi_flexform.sheet_images">Images</label>
+            <label index="rzthreesixty.pi_flexform.sheet_options">Options</label>
+            <label index="rzthreesixty.pi_flexform.images">Images</label>
+            <label index="rzthreesixty.pi_flexform.method">Method</label>
+            <label index="rzthreesixty.pi_flexform.method_1">Click</label>
+            <label index="rzthreesixty.pi_flexform.method_2">Mousemove</label>
+            <label index="rzthreesixty.pi_flexform.cycle">Cycle</label>
+            <label index="rzthreesixty.pi_flexform.direction">Direction</label>
+            <label index="rzthreesixty.pi_flexform.direction_1">Forward</label>
+            <label index="rzthreesixty.pi_flexform.direction_2">Backward</label>
+            <label index="rzthreesixty.pi_flexform.sensibility">Sensibility</label>
+            <label index="rzthreesixty.pi_flexform.img_width">Image width</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="rzthreesixty.pi_flexform.sheet_images">Bilder</label>
+            <label index="rzthreesixty.pi_flexform.sheet_options">Optionen</label>
+            <label index="rzthreesixty.pi_flexform.images">Bilder</label>
+            <label index="rzthreesixty.pi_flexform.method">Methode</label>
+            <label index="rzthreesixty.pi_flexform.method_1">Click</label>
+            <label index="rzthreesixty.pi_flexform.method_2">Mouseover</label>
+            <label index="rzthreesixty.pi_flexform.cycle">Umdrehungen</label>  
+            <label index="rzthreesixty.pi_flexform.direction">Richtung</label>
+            <label index="rzthreesixty.pi_flexform.direction_1">Vorwärts</label>
+            <label index="rzthreesixty.pi_flexform.direction_2">Rückwärts</label>
+            <label index="rzthreesixty.pi_flexform.sensibility">Sensibilität</label>
+            <label index="rzthreesixty.pi_flexform.img_width">Bildbreite</label>                      
+        </languageKey>
+    </data>
+</T3locallang>  
+

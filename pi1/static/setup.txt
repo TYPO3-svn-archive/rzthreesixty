@@ -1,0 +1,6 @@
+# # Enable jQuery globally?
+page.headerData.3356 = TEXT
+page.headerData.3356.value (
+<script type="text/javascript" src="typo3conf/ext/rzthreesixty/res/js/jquery-1-4-2.js"></script>
+)
+page.headerData.3356.if.isFalse = {$plugin.rzthreesixty.enableGlobal}

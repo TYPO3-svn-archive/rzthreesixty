@@ -1,0 +1,111 @@
+<T3DataStructure>
+<meta>
+<langDisable>1</langDisable>
+</meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.sheet_images</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+        <images>        
+          <TCEforms>
+            <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.images</label>
+              <config type="array">
+               <type>group</type>   
+               <internal_type>file</internal_type>
+               <allowed>jpg,gif,png</allowed>                   
+               <max_size>2000</max_size>                 
+               <uploadfolder>uploads/rzthreesixty</uploadfolder>
+               <show_thumbs>1</show_thumbs>
+               <size>5</size>
+               <autoSizeMax>100</autoSizeMax>
+               <minitems>0</minitems>
+               <maxitems>100</maxitems>
+              </config> 
+          </TCEforms>
+        </images>                             
+        </el>
+      </ROOT>
+    </sDEF>
+    <options>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.sheet_options</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+        <img_width>
+          <TCEforms>
+          <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.img_width</label>
+          <config>
+            <type>input</type>
+            <size>5</size>
+          </config>
+          </TCEforms>
+        </img_width>
+        <method>        
+          <TCEforms>
+          <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.method</label>
+          <config>
+            <type>select</type>
+            <items type="array">
+            <numIndex index="0" type="array">
+              <numIndex index="0">LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.method_1</numIndex>
+              <numIndex index="1">click</numIndex>
+            </numIndex>       
+            <numIndex index="1" type="array">
+              <numIndex index="0">LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.method_2</numIndex>
+              <numIndex index="1">mousemove</numIndex>
+            </numIndex>               
+            </items>          
+            <maxitems>1</maxitems>
+            <size>1</size>          
+          </config>
+          </TCEforms>
+        </method>
+        <cycle>
+          <TCEforms>
+          <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.cycle</label>
+          <config>
+            <type>input</type>
+            <size>5</size>
+          </config>
+          </TCEforms>
+        </cycle>
+        <direction>        
+          <TCEforms>
+          <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.direction</label>
+          <config>
+            <type>select</type>
+            <items type="array">
+            <numIndex index="0" type="array">
+              <numIndex index="0">LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.direction_1</numIndex>
+              <numIndex index="1">forward</numIndex>
+            </numIndex>       
+            <numIndex index="1" type="array">
+              <numIndex index="0">LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.direction_2</numIndex>
+              <numIndex index="1">backward</numIndex>
+            </numIndex>               
+            </items>          
+            <maxitems>1</maxitems>
+            <size>1</size>          
+          </config>
+          </TCEforms>
+        </direction>
+        <sensibility>
+          <TCEforms>
+          <label>LLL:EXT:rzthreesixty/locallang_tca.xml:rzthreesixty.pi_flexform.sensibility</label>
+          <config>
+            <type>input</type>
+            <size>5</size>
+          </config>
+          </TCEforms>
+        </sensibility>                                
+        </el>
+      </ROOT>
+    </options>    
+  </sheets>
+</T3DataStructure>
