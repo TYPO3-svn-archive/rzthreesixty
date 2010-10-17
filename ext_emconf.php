@@ -11,17 +11,17 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => '360Â° image rotation',
-	'description' => 'Inserts a plugin to display multiple photos in a 360Â° image rotation view.',
+	'title' => '360 image rotation',
+	'description' => 'Inserts a plugin to display multiple photos in a 360 image rotation view.',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '0.0.1',
+	'version' => '0.0.3-dev',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
 	'loadOrder' => '',
 	'module' => '',
-	'state' => 'alpha',
+	'state' => 'beta',
 	'uploadfolder' => 0,
 	'createDirs' => 'uploads/rzthreesixty',
 	'modify_tables' => '',
