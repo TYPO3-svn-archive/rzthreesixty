@@ -8,8 +8,10 @@
  * *
  * Date: Wed Sep 22 26:07:00 2010 -0500
  */
-
-jQuery.fn.threesixty = function(options){
+      
+(function($) {
+      
+$.fn.threesixty = function(options){
 	options = options || {};
 	options.images = options.images || [];
 	options.method = options.method || "click"
@@ -163,3 +165,4 @@ jQuery.fn.threesixty = function(options){
 		}
 	});			
 };
+})(jQuery);
